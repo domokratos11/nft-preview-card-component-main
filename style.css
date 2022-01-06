@@ -1,0 +1,128 @@
+/* 
+
+This is a first approach of writing my own CSS instead of using
+a framework or tailwindCSS
+
+I do understand that SASS could help but this time i wanna fully understand
+how each class affect each element  
+
+*/
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+small {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+section {
+  color: white;
+}
+
+.svg-text span {
+  margin-left: 5px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 8px;
+}
+
+.cian-text {
+  color: hsl(178, 100%, 50%);
+}
+
+.white-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.svg-text {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.nft-card {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.nft-image-container {
+  position: relative;
+}
+
+.nft-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.nft-image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: hsl(178, 100%, 50%);
+}
+
+.nft-image-container:hover .nft-image-overlay {
+  opacity: 0.6;
+}
+.nft-image-overlay > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.white-text:hover,
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.creator-image {
+  width: 24px;
+  border: solid 1px white;
+  border-radius: 100%;
+}
+
+.description {
+  border-bottom: solid hsl(215, 32%, 27%);
+}
+
+.coin-time {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: hsl(215, 51%, 70%);
+}
