@@ -11,3 +11,5 @@ But I wanted to go further with that, maybe more than further, the correct way o
 This approach is the first of many (I hope!) challenges that I wanna take in order to improve my CSS knowledge, I do understand that some code could be improve or good practices like not applying styles directly to HMTL tags should be avoid, but I just simply wanna go this way this time.
 
 And, to the be the first from scratch challenge, I feel really proud.
+
+Live on https://ntf-card-preview.netlify.app/
